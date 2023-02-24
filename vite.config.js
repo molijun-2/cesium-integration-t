@@ -35,6 +35,7 @@ export default defineConfig({
   build: {
     target: 'es2020',
     outDir: 'dist',
+    // assetsPublicPath:'./'
 
 
   },
@@ -71,9 +72,6 @@ export default defineConfig({
         ws: true,
       },
     },
-    build: {
-      // outDir:'dist',// 指定输出路径，要和库的包区分开
-      
-    }
-  }
+    
+  },
 })
